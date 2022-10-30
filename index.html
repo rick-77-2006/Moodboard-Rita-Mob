@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Rick</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <!-- <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon"> -->
+
+</head>
+
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <svg class="group-4" width="43" height="26" viewBox="0 0 43 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.7975 25.019H19.776V0.915771H28.7975C32.6999 0.915771 35.8793 2.04059 38.3355 4.29022C40.7917 6.53986 42.0198 9.43225 42.0198 12.9674C42.0198 16.5255 40.7917 19.4294 38.3355 21.679C35.9022 23.9057 32.7229 25.019 28.7975 25.019ZM24.7344 5.35765V20.5771H28.3843C31.0701 20.5771 33.159 19.9114 34.6511 18.58C36.1662 17.2256 36.9237 15.3548 36.9237 12.9674C36.9237 10.58 36.1662 8.72063 34.6511 7.38921C33.159 6.03484 31.0701 5.35765 28.3843 5.35765H24.7344Z" fill="#B59C73"></path>
+                <path d="M5.93885 25.019H0.980469V0.915771H5.90442L12.8944 10.9014L19.8843 0.915771H24.7738V25.019H19.8843V8.52551L14.3406 16.273H11.5859L5.93885 8.52551V25.019Z" fill="#1F2839"></path>
+              </svg>
+
+              <div class="group-5">
+                <svg class="group-3" width="291" height="77" viewBox="0 0 291 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.5733 76.5229H27.0474L17.3114 46.2854H10.1058L0.326904 76.5229H3.84389L7.61821 64.6852H19.7561L23.5733 76.5229ZM8.60468 61.6829L13.1939 47.2719H14.1804L18.8125 61.6829H8.60468Z" fill="#1F2839"></path>
+                  <path d="M59.7078 61.3827C59.7078 70.2181 64.9833 76.9518 73.8616 76.9518C81.5818 76.9518 86.6428 72.3197 87.5435 64.8139H84.0265C83.3403 70.6041 79.7804 73.9495 73.8616 73.9495C66.8276 73.9495 63.2248 68.7169 63.2248 61.3827C63.2248 54.0914 66.8276 48.8588 73.8616 48.8588C79.7804 48.8588 83.3403 52.1613 84.0265 57.9515H87.5435C86.6428 50.4886 81.5818 45.8565 73.8616 45.8565C64.9833 45.8565 59.7078 52.5902 59.7078 61.3827Z" fill="#1F2839"></path>
+                  <path d="M118.676 76.5229V46.2854H111.599L96.5015 75.5364H95.515L96.0726 73.0059V46.2854H92.5985V76.5229H99.6753L114.73 47.2719H115.716L115.159 49.8024V76.5229H118.676Z" fill="#1F2839"></path>
+                  <path d="M28.1152 61.3827C28.1152 70.2181 33.3907 76.9518 42.2689 76.9518C49.9891 76.9518 55.0501 72.3197 55.9508 64.8139H52.4339C51.7476 70.6041 48.1877 73.9495 42.2689 73.9495C35.2349 73.9495 31.6322 68.7169 31.6322 61.3827C31.6322 54.0914 35.2349 48.8588 42.2689 48.8588C48.1877 48.8588 51.7476 52.1613 52.4339 57.9515H55.9508C55.0501 50.4886 49.9891 45.8565 42.2689 45.8565C33.3907 45.8565 28.1152 52.5902 28.1152 61.3827Z" fill="#1F2839"></path>
+                  <path d="M176.366 46.2854H151.876V49.2877H162.427V76.5229H165.901V49.2877H176.366V46.2854Z" fill="#1F2839"></path>
+                  <path d="M180.556 76.5229H199.299V73.5206H184.073V62.8839H197.154V59.8816H184.073V49.2877H199.299V46.2854H180.556V76.5229Z" fill="#1F2839"></path>
+                  <path d="M225.664 46.2854V60.096H207.821V46.2854H204.304V76.5229H207.821V63.0983H225.664V76.5229H229.138V46.2854H225.664Z" fill="#1F2839"></path>
+                  <path d="M257.791 46.2854H233.3V49.2877H243.851V76.5229H247.325V49.2877H257.791V46.2854Z" fill="#1F2839"></path>
+                  <path d="M265.497 46.2854H261.98V76.5229H271.158C278.364 76.5229 282.953 74.55 282.953 67.0871C282.953 59.5813 278.364 57.5655 271.158 57.5655H265.497V46.2854ZM287.156 46.2854V76.5229H290.673V46.2854H287.156ZM265.497 73.5206V60.5678H271.158C276.476 60.5678 279.436 61.5543 279.436 67.0871C279.436 72.577 276.476 73.5206 271.158 73.5206H265.497Z" fill="#1F2839"></path>
+                  <path d="M9.50537 11.8239H3.84389V3.54613H18.1263V0.543829H0.326904V30.7813H9.50537C16.7109 30.7813 21.3001 28.8084 21.3001 21.3455C21.3001 13.8397 16.7109 11.8239 9.50537 11.8239ZM9.50537 27.779H3.84389V14.8262H9.50537C14.8237 14.8262 17.7832 15.8127 17.7832 21.3455C17.7832 26.8354 14.8237 27.779 9.50537 27.779Z" fill="#1F2839"></path>
+                  <path d="M52.2899 30.7813V0.543829H45.213L30.1157 29.7948H29.1292L29.6868 27.2643V0.543829H26.2127V30.7813H33.2896L48.344 1.5303H49.3305L48.7729 4.06081V30.7813H52.2899Z" fill="#1F2839"></path>
+                  <path d="M58.1179 19.2439C58.1179 27.6075 62.7929 31.2102 70.556 31.2102C77.8044 31.2102 81.879 27.8219 81.879 22.4178C81.879 17.7856 79.4771 16.1129 75.617 15.3409V14.3544C79.4771 13.754 81.4501 11.8239 81.4501 8.13537C81.4501 3.50324 77.8044 0.114929 70.556 0.114929C62.7929 0.114929 58.5468 3.71769 58.5468 10.4514H62.0638C62.0638 5.51908 64.5085 3.11723 70.556 3.11723C76.0459 3.11723 77.9331 5.34751 77.9331 8.60716C77.9331 11.8668 76.1746 13.368 72.529 13.368H68.3257V16.3703H72.529C76.1746 16.3703 78.362 17.9143 78.362 21.9031C78.362 25.9776 76.0459 28.2079 70.556 28.2079C64.5085 28.2079 61.6349 25.8061 61.6349 19.2439H58.1179Z" fill="#1F2839"></path>
+                  <path d="M109.058 0.543829V14.3544H91.2156V0.543829H87.6986V30.7813H91.2156V17.3567H109.058V30.7813H112.532V0.543829H109.058Z" fill="#1F2839"></path>
+                  <path d="M118.316 30.7813H137.059V27.779H121.833V17.1423H134.915V14.14H121.833V3.54613H137.059V0.543829H118.316V30.7813Z" fill="#1F2839"></path>
+                </svg>
+                <svg class="subtract" width="29" height="16" viewBox="0 0 29 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.33839 15.6622C4.37139 8.42333 7.97329 3.23878 14.9749 3.23878C20.8937 3.23878 24.4536 6.54132 25.1398 12.3315H28.6568C27.7561 4.8686 22.6951 0.236479 14.9749 0.236479C6.13052 0.236479 0.861475 6.91895 0.821411 15.6622H4.33839Z" fill="#1F2839"></path>
+                </svg>
+                <svg class="subtract2" width="29" height="17" viewBox="0 0 29 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.33851 0.662196C4.39766 7.85913 7.99877 13.0054 14.9745 13.0054C20.8933 13.0054 24.4532 9.70291 25.1394 3.91275H28.6564C27.7557 11.3756 22.6947 16.0077 14.9745 16.0077C6.15717 16.0077 0.893335 9.36607 0.821533 0.662196H4.33851Z" fill="#B59C73"></path>
+                </svg>
+                <svg class="subtract3" width="29" height="17" viewBox="0 0 29 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.327486 0.373421C0.317755 0.638361 0.312866 0.90538 0.312866 1.17435C0.312866 9.96681 5.58834 16.7005 14.4666 16.7005C22.1868 16.7005 27.2478 12.0684 28.1485 4.60555H24.6315C23.9453 10.3957 20.3854 13.6982 14.4666 13.6982C7.43262 13.6982 3.82985 8.46566 3.82985 1.17435C3.82985 0.904474 3.83473 0.637447 3.84448 0.373421H0.327486Z" fill="#1F2839"></path>
+                </svg>
+                <svg class="subtract4" width="29" height="17" viewBox="0 0 29 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.312876 16.404C0.31287 16.3969 0.312866 16.3898 0.312866 16.3827C0.312866 7.59024 5.58834 0.856506 14.4666 0.856506C22.1868 0.856506 27.2478 5.48863 28.1485 12.9515H24.6315C23.9453 7.16134 20.3854 3.85881 14.4666 3.85881C7.43262 3.85881 3.82985 9.0914 3.82985 16.3827C3.82985 16.3898 3.82985 16.3969 3.82986 16.404H0.312876Z" fill="#B59C73"></path>
+                </svg>
+              </div>
+            </div>
+
+
+            
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">ДОМОЙ</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">ОБО МНЕ</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">УСЛУГИ</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">КЕЙСЫ</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">КОНТАКТЫ</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+            
+            <a class="header-menu-toggle" href="#0">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <!-- <div class="shadow-overlay"></div> -->
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <!-- <img src="images/Businessassistent.jpg" alt="Homepage"> -->
+            </div> <!-- end home-content__main -->
+        </div> <!-- end home-content -->
+
+
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+
+            <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Viber</span></a>
+            </li>
+
+            <li>
+                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+            <!-- <li>
+                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li> -->
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">Обо мне</h3>
+                <h1 class="display-1">
+                    Здравствуй, дорогой друг!Хочу немного рассказать тебе о себе и подсветить те сферы, где мы можем с тобой сотрудничать.
+
+                </h1>
+                <p class="lead">
+                    
+
+                    Я называю этот путь – из Бизнес Ассистента 
+                    в Руководителя по развитию бизнеса.
+                </p>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full">
+
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--planning">
+                    <!-- <h3>Planning</h3> -->
+                </div>
+                <p>
+                    Бизнес-ассистент высокого уровня с 10-летним опытом и знаниями
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--branding">
+                    <!-- <h3>Branding</h3> -->
+                </div>
+                <p>
+                    Приглашенный спикер для международных женских сообществ и преподаватель 
+                    в онлайн-курсе для бизнес-ассистентов
+                </p> 
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--implementation">
+                    <!-- <h3>Implementation</h3> -->
+                </div>
+                <p>
+                    Опытный фасилитатор Мастермайнд. Провела офлайн мастермайнд для руководящего состава МХАТ им. Горького 
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <!-- <div class="item-process__header item-process__header--documentation">
+                    <h3>Documentation</h3>
+                </div>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta.
+                </p> -->
+            </div>
+
+        </div>  <!-- end about-process -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <!-- <div class="col-full">
+                <h3 data-num="02" class="subhead">УСЛУГИ</h3>
+                <h1 class="display-1 display-1--light">
+                Our services are tailored to make your business grow and stand out.
+                </h1>
+                <p class="lead lead-light">
+                Quia iusto totam facilis ut atque quidem quis maiores iure. Facilis mollitia enim illo sed et totam commodi. Velit a recusandae sequi consequatur est dolorum. Eaque accusantium praesentium ut omnis. Laboriosam reprehenderit commodi assumenda.
+                </p>
+            </div> -->
+        </div>
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <!-- <h4>Brand Identity</h4> -->
+                <p>
+                    Подбор Бизнес Ассистента или Личного помощника (офлайн-онлайн формат)
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <!-- <h4>Illustration</h4> -->
+                <p>
+                    Приглашенный наставник
+                    для вашего бизнес-ассистента или личного помощника
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <!-- <h4>Web Design</h4> -->
+                <p>
+                    Приглашенный спикер на ваше мероприятие (актуальные темы)
+                </p>
+            </div>
+
+            <!-- <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Product Strategy</h4>
+                <p>
+                Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                </p> -->
+            </div>
+
+            <!-- <div class="col-block item-service" data-aos="fade-up">
+                 <h4>UI/UX Design</h4>
+                <p>
+                Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                </p> -->
+            </div>
+
+            <!-- <div class="col-block item-service" data-aos="fade-up">
+                 <h4>Mobile Design</h4>
+                <p>
+                Sit ut cum molestiae. Dolore ducimus qui quasi. Fugiat consequatur sit vel illum vel et 
+                a delectus. Vel sequi vitae voluptatem perspiciatis eligendi. Voluptatibus optio natus 
+                asperiores est commodi amet quia architecto. Dolores necessitatibus et.
+                </p> -->
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <!-- <h3 data-num="03" class="subhead">Recent Works</h3> -->
+                <h1 class="display-1">
+                    Наши услуги — то, что так нужно владельцам компаний, предпринимателям и топ-менеджерам.
+                </h1>
+            </div>
+        </div>
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <!-- <h3 data-num="03" class="subhead">Recent Works</h3> -->
+                <h1 class="display-1">
+                    Особое внимание советуем обратить представителям корпоративной сферы, информационной сферы и онлайн-обучения, финтех 
+                    и крипто-проектов
+                </h1>
+            </div>
+        </div>
+
+        <div class="testimonials-wrap" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-full testimonials-header">
+                    <h2 class="h1">КЕЙСЫ</h2>
+                </div>
+            </div>
+
+            <div class="row testimonials">
+
+                <div class="col-full testimonials__slider">
+
+                    <div class="testimonials__slide">
+                        <span class="testimonials__icon"></span>
+                        <p>Международные вакансии, которые уже успешно закрыты и сотрудники продолжают работать:</p>
+                        <div class="testimonials__author">
+                            <img src="images/rectangle-12.svg" alt="Author image" class="testimonials__avatar">
+                            <!-- <span class="testimonials__name">Tim Cook</span>
+                            <span class="testimonials__position">CEO, Apple</span> -->
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <span class="testimonials__icon"></span>
+                        <p>работает у Николая Овчинникова</p>
+                        <div class="testimonials__author">
+                            <img src="images/rectangle-13.svg" alt="Author image" class="testimonials__avatar">
+                            <span class="testimonials__name">ДИАНА,</span>
+                            <span class="testimonials__position"> ПОМОЩНИК СЕОЕ</span>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <span class="testimonials__icon"></span>
+                        <p>работает у Светланы Никифоровой</p>
+                        <div class="testimonials__author">
+                            <img src="images/rectangle-14.svg" alt="Author image" class="testimonials__avatar">
+                            <span class="testimonials__name">АННА НИКУЛИНА,</span>
+                            <span class="testimonials__position">БИЗНЕС-АССИСТЕНТ</span>
+                        </div>
+                    </div> <!-- end testimonials__slide -->
+                    
+                </div> <!-- end testimonials__slider -->
+
+            </div> <!-- end testimonials -->
+
+        </div> <!-- end testimonials-wrap -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="04" class="subhead">ОТЗЫВЫ</h3>
+                <!-- <h1 class="display-1 display-1--light">Here are some of the brands we have had the priviledge to work with.</h1> -->
+            </div>
+        </div>
+
+        <div class="row clients-list block-1-4 block-tab-1-3 block-mob-1-2" data-aos="fade-up">
+            <div class="rectangle-262">
+
+            </div>
+<!-- 
+
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-atom.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-dropbox.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-firefox.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-github.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-mozilla.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-linux.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-ubuntu.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#0">
+                    <img src="images/clients/icon-sass.svg" alt="">
+                </a>
+            </div> -->
+
+        </div> <!-- clients-list -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <!-- <h3 data-num="05" class="subhead">Get In Touch</h3> -->
+
+                <b name="contact-me1" id="contact-me1">
+                    свяжитесь<br>
+                    со мной!
+                  </b>
+
+
+
+
+                
+            </div>
+        </div>
+
+        <div class="row contact-infos">
+
+            <div class="col-five md-seven tab-full contact-address" data-aos="fade-up">
+                <!-- <h4>Where to Find Us</h4>
+
+                <p>
+                1600 Amphitheatre Parkway <br>
+                Mountain View, California <br>
+                94043  US
+                </p> -->
+            </div>
+
+            <div class="col-three md-five tab-full contact-social" data-aos="fade-up">
+                <!-- <h4>Follow Us</h4> -->
+
+                <ul class="contact-list">
+                    <li><a href="#0">Facebook</a></li>
+                    <li><a href="#0">Instargram</a></li>
+                    <li><a href="#0">Viber</a></li>
+                </ul>
+            </div>
+<!-- 
+            <div class="col-four md-six tab-full contact-number" data-aos="fade-up">
+                <h4>Contact Us</h4>
+
+                <ul class="contact-list">
+                    <li><a href="tel:197-543-2345">+197 543 2345</a></li>
+                    <li><a href="tel:197-123-9876">+197 123 9876</a></li>
+                </ul>
+            </div> -->
+
+        </div> <!-- end contact-infos -->
+
+        <div class="row contact-bottom">
+            <div class="col-five tab-full contact-button" data-aos="fade-up">
+                <a href="#about" class="smoothscroll btn btn-animatedbg">
+                    связаться
+                </a>
+            </div>
+
+            <!-- <div class="col-six tab-full contact-subscribe" data-aos="fade-up">
+                <h4>Subscribe</h4>
+
+                <form id="mc-form" class="group mc-form" novalidate="true">
+                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                    <input type="submit" name="subscribe" value="Subscribe">
+                    <label for="mc-email" class="subscribe-message"></label>
+                </form>
+            </div> -->
+        </div> <!-- end contact-button -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
